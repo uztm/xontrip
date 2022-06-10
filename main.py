@@ -3,7 +3,7 @@ import logging
 from unittest import skip
 from aiogram import  Dispatcher, Bot , executor, types
 from aiogram.types import CallbackQuery, Message
-from numpy import real
+
 import markups as nav
 import dbText as tex
 import cafeArena
@@ -15,7 +15,7 @@ import relaxDacha as relax
 from languages import lang
 from markups import inkey
 
-bot = Bot(token='5313657808:AAFKljusQ-Er5Pi0rzQQ95tQO7IklVHwR68')
+bot = Bot(token='5544257964:AAHG5FdlWkXtmrBp4h_c3R2Uqqp0bqwcNqw')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands='start')
